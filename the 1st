@@ -1,0 +1,11 @@
+print ("\nMESIN KONVERSI FAHRENHEIT > KELVIN & KELVIN > FAHRENHEIT\n")
+Fahrenheit = float(input("Masukkan suhu F:"))
+Kelvinr = float(input("Masukkan suhu K:"))
+
+#Rumus F > K
+Kelvin = (Fahrenheit + 459.67)*(5/9)
+print("Suhu sebesar", Fahrenheit, ("F adalah"), Kelvin, ("K"))
+#Rumus K > F
+
+Fahrenheitr = (1.8*(Kelvinr - 273))+32
+print("Suhu sebesar", Kelvinr, ("K adalah"), Fahrenheitr, ("F"))
